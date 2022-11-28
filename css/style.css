@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+[class*="__container"]{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main {
+}
+.main__container {
+	padding: 50px 0;
+}
+.main__block {
+}
+.block {
+}
+.block__title {
+	text-align: center;
+	font-size: 48px;
+	letter-spacing: 1px;
+	font-family: 'Rubik Glitch', cursive;
+}
+.block__text {
+}
+.text {
+}
+.text__subtitle {
+	padding-left: 30px;
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-family: 'Rubik Glitch', cursive;
+}
+.text__items {
+	margin-bottom: 40px;
+	font-family: 'Lobster', cursive;
+}
+.text__item:not(:last-child){
+	margin-bottom: 10px;
+}

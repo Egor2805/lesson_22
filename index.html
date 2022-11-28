@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<title>Lesson22</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+		</header>
+		<main class="main">
+			<div class="main__container">
+				<div class="main__block block">
+					<h1 class="block__title">Домашка</h1>
+					<div class="block__text text">
+						<h2 class="text__subtitle">Синтаксис</h2>
+						<ol class="text__items">
+							<li class="text__item">Первый и второй пример не вызовут ошибок но в конце инструкции
+								<mark>желательно (обязательно)</mark> ставить ;</li>
+							<li class="text__item">Вариант 3 выдаст ошибку поскольку две инструкции написаны в строку и в конце
+								каждой не стоит ;</li>
+							<li class="text__item">В варианте 4 ни одна инструкция не выполнится поскольку в
+								console.log('Учим); нет закрывающей ковычки.</li>
+						</ol>
+					</div>
+					<div class="block__text text">
+						<h2 class="text__subtitle">Переменные</h2>
+						<ol class="text__items">
+							<li class="text__item">Выдаст ошибку.Нужно в конце каждой инструкции ; и каждую инструкцию с новой
+								строки.</li>
+							<li class="text__item">Не правильно записано имя переменной.
+								Ошибку не вызовет но нужно записывать в общепринятом стиле
+								owerCamelCase тоесть (myAge). </li>
+							<li class="text__item">Запись не корректна.В константу через uppercase записываются данные которые известны и которые не будут менятся после записи.</li>
+							<li class="text__item">Правильная запись</li>
+							<li class="text__item">Ошибки не будет потому что используется var.</li>
+						</ol>
+					</div>
+					<div class="block__text text">
+						<h2 class="text__subtitle">Типы Данных</h2>
+						<ol class="text__items">
+							<li class="text__item">Не верно.Тут нужно использовать обратные скобки.</li>
+							<li class="text__item">Не верно.Тут выведет Infinity</li>
+							<li class="text__item">Не верно.Тут выведет Undefined</li>
+							<li class="text__item">Верно.А втоматически переведет в тип (number)</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
